@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Code With Founders
 
 Sistema integral de gestión empresarial con módulos de contactos y reservas.
@@ -107,3 +108,7 @@ MIT License
 ## Autor
 
 Code With Founders - 2025
+=======
+# Code_with_founders
+Repo for a challenge
+>>>>>>> 87cf9a1ad1b58f9b5425bde9f8b52394761dfdba
