@@ -1,0 +1,18 @@
+{
+  "name": "silent-currency-bug-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive dashboard for Silent Currency Bug test suite visualization",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000 --directory public",
+    "preview": "open http://localhost:8000 && python -m http.server 8000 --directory public"
+  },
+  "keywords": [
+    "testing",
+    "dashboard",
+    "currency",
+    "vercel"
+  ],
+  "author": "Claude Sonnet 4.5",
+  "license": "MIT"
+}
