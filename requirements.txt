@@ -1,0 +1,38 @@
+# Core Testing Framework
+pytest==7.4.3
+pytest-asyncio==0.21.1  # Async test support (required for webhook tests)
+pytest-xdist==3.5.0  # Parallel test execution
+pytest-cov==4.1.0  # Coverage reporting
+pytest-html==4.1.1  # HTML test reports
+pytest-timeout==2.2.0  # Test timeouts
+pytest-retry==1.6.1  # Retry flaky tests
+
+# Test Data & Mocking
+faker==22.0.0  # Generate test data
+factory-boy==3.3.0  # Test data factories
+responses==0.24.1  # Mock HTTP requests
+freezegun==1.4.0  # Mock datetime
+
+# API Testing
+requests==2.31.0
+httpx==0.26.0
+
+# Data Validation
+pydantic==2.5.3
+jsonschema==4.20.0
+
+# Currency & Decimal Handling
+forex-python==1.8  # FX rates
+babel==2.14.0  # Currency formatting
+
+# Reporting & Visualization
+allure-pytest==2.13.2  # Advanced test reporting
+pytest-json-report==1.5.0
+
+# Code Quality
+black==23.12.1
+pylint==3.0.3
+mypy==1.8.0
+
+# Environment Management
+python-dotenv==1.0.0
